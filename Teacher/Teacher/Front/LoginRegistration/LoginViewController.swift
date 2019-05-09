@@ -18,7 +18,7 @@ class LoginViewController: LoginBaseViewController, UITextFieldDelegate  {
     @IBOutlet weak var passwordNotificationView:        UIView!
     
     //MARK: - Life cycle
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         properties()
@@ -27,7 +27,7 @@ class LoginViewController: LoginBaseViewController, UITextFieldDelegate  {
     }
     
     // MARK: - UITextFieldDelegate
-    
+
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         hideKeyboard(textField)
         return true
